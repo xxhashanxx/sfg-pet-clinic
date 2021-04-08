@@ -1,4 +1,4 @@
-package hashan.springframework.sfgpetclinic;
+package hashan.springframework.sfgclinic;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
