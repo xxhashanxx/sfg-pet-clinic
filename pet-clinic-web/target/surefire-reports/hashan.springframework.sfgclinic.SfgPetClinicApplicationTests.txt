@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: hashan.springframework.sfgclinic.SfgPetClinicApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.433 s <<< FAILURE! - in hashan.springframework.sfgclinic.SfgPetClinicApplicationTests
-hashan.springframework.sfgclinic.SfgPetClinicApplicationTests  Time elapsed: 0.431 s  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.446 s <<< FAILURE! - in hashan.springframework.sfgclinic.SfgPetClinicApplicationTests
+hashan.springframework.sfgclinic.SfgPetClinicApplicationTests  Time elapsed: 0.446 s  <<< ERROR!
 java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
 
