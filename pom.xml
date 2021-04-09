@@ -67,6 +67,13 @@
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<configuration>
+					<goals>install</goals>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.22.0</version>
 				<configuration>
@@ -95,5 +102,8 @@
 			</plugin>
 		</plugins>
 	</build>
-
+	<scm>
+		<developerConnection>scm:git:https://github.com/xxhashanxx/sfg-pet-clinic.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
 </project>
