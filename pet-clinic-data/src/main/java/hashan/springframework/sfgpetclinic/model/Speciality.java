@@ -9,8 +9,11 @@ import javax.persistence.Table;
 /**
  * Created by jt on 7/29/18.
  */
-
+@Entity
+@Table(name = "specialities")
 public class Speciality extends BaseEntity {
+
+    @Column(name = "description")
     private String description;
 
     public String getDescription() {
